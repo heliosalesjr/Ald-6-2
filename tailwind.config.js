@@ -35,6 +35,9 @@ module.exports = {
         "dark-accent": "#845F91",
         "light-accent": "#979C75"
       },
+      boxShadow: {
+        'purple-700': '0 1px 2px -2px rgba(114, 71, 179, 0.1), 0 2px 4px -1px rgba(114, 71, 179, 0.06)',
+      },
       
     },
   },
