@@ -8,9 +8,8 @@ export default function App() {
   const pathname = usePathname();
 
   const links = [
-    { label: "Apresentação", href: "/" },
-    { label: "Etapas do Projeto", href: "/etapas" },
-    { label: "Introdução ao Site 1", href: "/introducao" },
+    { label: "Introdução", href: "/" },
+    
     { label: "Atividades do Projeto", href: "/atividades" },
     { label: "Matemática e Educação Financeira", href: "/matematica" },
     { label: "Recursos Didáticos", href: "/recursos" },
@@ -32,14 +31,16 @@ export default function App() {
         </a>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <img src="/images/logo-blue.png" alt="Logo" height={60} width={60}/>
+      <NavbarContent className="hidden sm:flex flex-grow justify-end gap-4" justify="center">
+        <div className="pr-8">
+          <img src="/images/logo-blue.png" alt="Logo" height={60} width={60}/>
+        </div>
         
         {links.map((link, index) => (
           <NavbarItem key={index}>
             <Link
               href={link.href}
-              className={`transition-all duration-500 ease-in-out hover:text-blue-900 hover:border-b hover:border-primary-focus hover:font-semibold ${
+              className={`transition-all first-letter duration-500 ease-in-out hover:text-blue-800  hover:font-semibold ${
                 pathname === link.href ? 'border-b-3 border-primary font-semibold text-blue-900' : ''
               }`}
               color="foreground"
@@ -57,8 +58,8 @@ export default function App() {
               href={link.href}
               size="lg"
               style={{ display: 'block', textAlign: 'center' }}
-              className={`font-semibold text-primary py-4 hover:text-sky-800 ${
-                pathname === link.href ? 'border-b-3 border-primary' : ''
+              className={`font-semibold text-slate-700 py-4 hover:text-sky-700 ${
+                pathname === link.href ? 'border-b-3 border-sky-500' : ''
               }`}
             >
               {link.label}

@@ -1,15 +1,12 @@
 'use client'
-import CardList from "./components/CardList"
-import FeatureSection from "./components/FeatureSection"
-import HeroSection from "./components/HeroSection"
 
-import SectionHalf from "./components/SectionHalf"
-import SectionOne from "./components/SectionOne"
-import FAQDaisy from './components/FAQDaisy'
-import Divider from "./components/Divider"
-import BaixeLivros from "./components/BaixeLivros"
+import { Divider } from "@nextui-org/react"
+import HeroSection from "./components/HeroSection"
+import IntroButons from "./components/IntroButons"
 import MainButton from "./components/MainButton"
-import MainProposta from "./components/MainProposta"
+import OSite2 from "./components/OSite2"
+import Relembrando from "./components/Relembrando"
+
 
 
 export default function Home() {
@@ -17,20 +14,13 @@ export default function Home() {
     <>
       
       <HeroSection />
-      <SectionOne />
-      <Divider />
-      <CardList />
-      <Divider />
-      <SectionHalf />
-      <Divider />
-      <FeatureSection />
-      <FAQDaisy />
-      <Divider />
-      <BaixeLivros  />
-      <MainProposta />
-      <Divider />
+      <OSite2 />
+      <Divider className="max-w-3xl mx-auto mb-12" />  
+      <Relembrando />
+      <IntroButons />
+      <Divider className="max-w-3xl mx-auto mt-8" />
       <MainButton />
-
+      
     </>
   )
 }

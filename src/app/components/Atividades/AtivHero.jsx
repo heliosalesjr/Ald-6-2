@@ -10,7 +10,7 @@ const AtivHero = () => {
             Atividades do Projeto: Diagnóstico
             </h1>
             <p className="text-lg text-white py-8">
-            Ao conhecer a realidade e as potencialidades dos estudantes, o educador tem ideia dos desafios a serem superados em cada etapa. Para isso, propomos dois tipos de diagnóstico: um de perfil da turma e um de levantamento de conhecimentos prévios de Matemática e Educação Financeira. Com o diagnóstico em mãos, o professor inicia o planejamento do Pequeno Projeto Didático Ativo ou PPDA.
+            Nesta seção, vamos aprofundar a etapa de Planejamento do Educador, o planejamento ou Plano de Ação dos Estudantes e o Monitoramento. Também vamos conhecer duas ferramentas que ajudarão na definição das ações do projeto e podem auxiliar no monitoramento: a 5W2H e as Metas SMART.
             </p>
             </div>
             <div className="hidden md:block">
