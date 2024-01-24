@@ -12,7 +12,7 @@ function RecDiario() {
             <p className='text-slate-700 py-4'>
             Veja abaixo alguns exemplos do uso do Padlet como Diário de Bordo:
             </p>
-            <ul className='text-center py-2'>
+            <ul className='py-2'>
                 <li>
                     <a
                     href='https://padlet.com/cinemaeciencia/sbnsg7spp877tjgk'
