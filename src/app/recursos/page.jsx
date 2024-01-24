@@ -1,13 +1,11 @@
 'use client'
 
-import RecLembre from '../components/Recursos/RecLembre'
-import RecGoogle from '../components/Recursos/RecGoogle'
-import RecInfografico from '../components/Recursos/RecInfografico'
-import RecDicas from '../components/Recursos/RecDicas'
-import RecMapaMental from '../components/Recursos/RecMapaMental'
-import RecSugestao from '../components/Recursos/RecSugestao'
-import RecFiqueSabendo from '../components/Recursos/RecFiqueSabendo'
+import { Divider } from '@nextui-org/react'
 import RecHero from '../components/Recursos/RecHero'
+import RecPadlet from '../components/Recursos/RecPadlet'
+import RecDiario from '../components/Recursos/RecDiario'
+import RecPadletVideo from '../components/Recursos/RecPadletVideo'
+import AtiUnindoFerramentas from '../components/Recursos/AtiUnindoFerramentas'
 
 
 function Recursos() {
@@ -15,15 +13,12 @@ function Recursos() {
     <>
         
         <RecHero />
-        <RecGoogle/>
-        <RecDicas />
-        <RecLembre/>
-        <RecMapaMental/>
-        <RecSugestao  />
-        <RecFiqueSabendo />
-        <RecInfografico/>
-        
-    
+        <RecPadlet />
+        <Divider className='max-w-5xl mx-auto my-4 bg-primary'/>
+        <RecDiario />
+        <RecPadletVideo />
+        <Divider className='max-w-5xl mx-auto my-4'/>
+        <AtiUnindoFerramentas />
     </>
     
   )

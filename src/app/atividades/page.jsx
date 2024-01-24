@@ -25,6 +25,7 @@ function Atividades() {
         <Divider className='max-w-5xl mx-auto my-4 bg-primary'/>
         <Monitoramento />
         <AtiDiarioBordo />
+        <Divider className='max-w-5xl mx-auto'/>
         <AtiBotaoNext />
         
         
