@@ -14,7 +14,7 @@ const MatHero = () => {
             </p>
             </div>
             <div className="hidden md:block">
-                <img src="images/ilustra_piggy.png" alt="Capa" className="px-8 w-[1500px]" />
+                <img src="images/ilustra_piggy.png" alt="Capa" className="px-8 w-[800px]" />
             </div>
         </div>
       </div>

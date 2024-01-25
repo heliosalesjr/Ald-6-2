@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 
 function MatVideos() {
     return (
-        <div className='max-w-7xl m-4'>
+        <div className='max-w-7xl mx-auto m-4'>
           <div className='mx-auto p-4'>
             <h1 className='font-bold text-3xl py-4 text-center text-slate-700'>Operações com números racionais na representação decimal e Orçamento</h1>
             <p className='text-slate-700 py-4'>Para fazer orçamentos, precisamos saber operar com números racionais na sua forma decimal. Abaixo, a professora Gis traz detalhadamente como fazer as quatro operações com números decimais.</p>
