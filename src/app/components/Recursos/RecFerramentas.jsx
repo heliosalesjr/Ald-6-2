@@ -7,7 +7,7 @@ import {AiOutlineAreaChart} from 'react-icons/ai';
 
 function RecFerramentas() {
   return (
-    <div className="container my-24 mx-auto md:px-6">
+    <div className="container my-16 mx-auto md:px-6">
       <section className="mb-32">
         <div className="flex flex-wrap">
           <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">

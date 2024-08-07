@@ -25,11 +25,12 @@ function Recursos() {
         <Divider className='max-w-5xl mx-auto my-4'/>
         <AtiUnindoFerramentas />
         <RecInfo />
+        <Divider className='max-w-5xl mx-auto my-4'/>
+        <RecFerramentas />
         <RecPodcast />
         <RecPodcastSug />
         <RecDica />
-        <Divider className='max-w-5xl mx-auto my-4'/>
-        <RecFerramentas />
+        
     </>
     
   )
