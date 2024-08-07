@@ -8,6 +8,9 @@ import RecPadletVideo from '../components/Recursos/RecPadletVideo'
 import AtiUnindoFerramentas from '../components/Recursos/AtiUnindoFerramentas'
 import RecInfo from '../components/Recursos/RecInfo'
 import RecFerramentas from '../components/Recursos/RecFerramentas'
+import RecPodcast from '../components/RecPodcast'
+import RecPodcastSug from '../components/RecPodcastSug'
+import RecDica from '../components/RecDica'
 
 
 function Recursos() {
@@ -22,6 +25,10 @@ function Recursos() {
         <Divider className='max-w-5xl mx-auto my-4'/>
         <AtiUnindoFerramentas />
         <RecInfo />
+        <RecPodcast />
+        <RecPodcastSug />
+        <RecDica />
+        <Divider className='max-w-5xl mx-auto my-4'/>
         <RecFerramentas />
     </>
     
